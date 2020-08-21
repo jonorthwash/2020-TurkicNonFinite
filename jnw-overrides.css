@@ -278,7 +278,7 @@ gl {
 	color: white ;
 	-webkit-filter: brightness(80%); /* Safari 6.0 - 9.0 */
 	filter: brightness(80%);
-	font-style: italic ;
+	/* font-style: italic ; */
 }
 gl::before {
 	content: "‘" ;
