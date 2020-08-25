@@ -241,6 +241,7 @@ transcr:before {
 
 transcr {
 	font-style: normal !important ;
+	font-family: "Liberation Sans" !important;
 }
 
 igt:before {
