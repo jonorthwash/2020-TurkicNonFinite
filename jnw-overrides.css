@@ -33,6 +33,9 @@ li.sentence {
 li.shrink {
 	font-size: 75% !important;
 }
+.shrink li {
+	font-size: 75% !important;
+}
 p.shrink {
 	font-size: 75% !important;
 }
