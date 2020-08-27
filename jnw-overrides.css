@@ -239,6 +239,10 @@ wd:last-of-type {
 	clear: right ;
 }
 
+/*** wd:first-of-type {
+	margin-left: -1em;
+} ***/
+
 transcr:before {
 	content: '\A';
 	display: block;
@@ -275,9 +279,11 @@ igt {
 }
 
 num {
-	position: absolute;
-	left: 1em;
+	float: left;
+	position: relative;
+	left: -1.75em;
 	font-style: normal !important ;
+	max-width: 0;
 }
 
 gmk {
@@ -294,6 +300,7 @@ gloss {
 	font-style: normal !important ;
 	width: max-content; 
 	display: block;
+	margin-left: 0em;
 }
 
 /* gloss */
@@ -392,6 +399,7 @@ lg {
 	-webkit-filter: brightness(70%); /* Safari 6.0 - 9.0 */
 	filter: brightness(70%);
 	color: white !important ;
+	font-style: normal !important ;
 }
 
 table.nolines tr td {
