@@ -215,6 +215,7 @@ ex {
 	text-align: left !important ;
 	width: 0% ;
 	display: block ;
+	margin-left: 1.75em;
 }
 ex.white {
 	color: white !important ;
@@ -246,6 +247,17 @@ transcr:before {
 transcr {
 	font-style: normal !important ;
 	font-family: "Liberation Serif" !important;
+	font-size: 75% !important ;
+/***
+	color: white ;
+}
+
+.bbb transcr {
+	color: lightblue;
+}
+.bbb igt {
+	color: lightblue;
+***/
 }
 
 igt:before {
@@ -259,6 +271,13 @@ igt {
 	font-family: sans-serif ;
 	font-size: 75% !important ;
 	display: block ;
+/***	color: white ; ***/
+}
+
+num {
+	position: absolute;
+	left: 1em;
+	font-style: normal !important ;
 }
 
 gmk {
@@ -508,11 +527,11 @@ blockquote {
 	/** font-style: normal !important ; **/
 }
 .float-left {
-	width: 47% !important;
+	width: 48% !important;
 	float: left !important;
 }
 .float-right {
-	width: 47% !important;
+	width: 50% !important;
 	float: right !important;
 }
 .large {
