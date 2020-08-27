@@ -155,6 +155,27 @@ table.shrink tr th {
 	vertical-align: bottom ;
 }
 
+table.supershrink {
+	max-width: 32%  !important ;
+}
+
+table.supershrink tr {
+	padding: 0px;
+	height: 7px;
+}
+table.supershrink tr td {
+	font-size: 50% !important;
+	padding: -9px;
+	padding-right: 2pt;
+}
+
+table.supershrink tr th {
+	font-size: 50% !important;
+	padding: -9px;
+	padding-right: 2pt;
+	vertical-align: bottom ;
+}
+
 .raln {
 	text-align: right !important ;
 }
@@ -522,6 +543,12 @@ tt {
 }
 
 
+.inline-ex {
+	color: lightgreen ;
+	font-family: "Linux Biolinum O" !important;
+	font-size: 110% !important ;
+	font-style: italic !important ;
+}
 
 .cyrillic {
 	/** font-family: "Trebuchet MS", "Attentica 4F", "League Gothic", Impact, sans-serif !important ; **/
