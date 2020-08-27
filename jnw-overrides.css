@@ -421,6 +421,7 @@ lg {
 	filter: brightness(70%);
 	color: white !important ;
 	font-style: normal !important ;
+	font-family: sans ;
 }
 
 table.nolines tr td {
