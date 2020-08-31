@@ -20,13 +20,13 @@
 		<!-- link rel="stylesheet" href="./reveal.js/lib/css/zenburn.css" -->
 
 		<!-- Printing and PDF exports -->
-		<!-- script>
+		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.scss' : './reveal.js/css/print/paper.scss';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script -->
+		</script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -164,7 +164,7 @@
 							<gloss>"After that <bbb>going</bbb> to the library will turn into a habit."</gloss>
 						</ex>
 					</ul>
-					<div style="background-color: rgba(0.3, 0.3, 0.3, 0.5); transparency 50%; position: fixed; top: 0px; right: -2em; margin: 3em 0 0 0; padding: 1em 1em 1em 0; width: 40%;" class="fragment fade-left">
+					<div style="background-color: rgba(0.3, 0.3, 0.3, 0.5); transparency 50%; position: absolute; top: 0px; right: -2em; margin: 3em 0 0 0; padding: 1em 1em 1em 0; width: 40%;" class="fragment fade-left">
 						<ul style="list-style-type: none;">
 							<li class="bbb">Some problems with this:</li>
 							<ul>
@@ -477,8 +477,8 @@
 						</li>
 						<li>Output: <span class="highlight">near-exhaustive typology</span> of NFV-forming suffixes</li>
 					</ul>
-					<div style="background-color: rgba(0.3, 0.3, 0.3, 0.5); transparency 50%; position: fixed; top: 0px; right: -3.5em; margin: 4em 0 0 0; padding: 0.5em; padding-left: 0em !important; width: 28%;" class="fade-left">
-						<ul style="list-style-type: none;">
+					<div style="background-color: rgba(0.3, 0.3, 0.3, 0.5); transparency 50%; position: absolute; top: 0px; right: -2.5em; margin: 3.8em 0 0 0; padding: 0.25em; width: 28%;" class="fade-left">
+						<ul style="list-style-type: none; margin-left: -0.5em; margin-bottom: 0.25em;">
 							<li class="bbb">Languages:</li>
 							<ul>
 								<li><span class="code">kaz</span> - Kazakh</li>
@@ -1058,6 +1058,9 @@
 				// Shows the slide number using default formatting
 				//Reveal.configure({ slideNumber: true });
 				//slideNumber: true,
+
+				//if true (default), fragments are generated on separate pages of pdfs
+				//pdfSeparateFragments: false,
 
 				// Slide number formatting can be configured using these variables:
 				//  "h.v":  horizontal . vertical slide number (default)
